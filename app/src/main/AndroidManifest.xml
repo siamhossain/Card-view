@@ -20,7 +20,11 @@
         <activity android:name=".AceActivity" />
         <activity android:name=".FexoActivity" />
         <activity android:name=".EvoActivity" />
-        <activity android:name=".DrugDetails"></activity>
+        <activity android:name=".DrugDetails" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".FragementOne" />
+        <activity android:name=".FragementTwo" />
+        <activity android:name=".FragementThree"></activity>
     </application>
 
 </manifest>

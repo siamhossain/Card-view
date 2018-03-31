@@ -7,23 +7,23 @@ import android.support.v7.widget.CardView;
 import android.view.View;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
-    private CardView napaCard, aceCard, fexoCard, evoCard;
+    private CardView paracetamol1Card, calciumCard, aceclofenacCard, baclofenCard;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        napaCard = (CardView) findViewById(R.id.napa);
-        aceCard = (CardView) findViewById(R.id.ace);
-        fexoCard = (CardView) findViewById(R.id.fexo);
-        evoCard = (CardView) findViewById(R.id.evo);
+        paracetamol1Card = (CardView) findViewById(R.id.paracetamol);
+        calciumCard = (CardView) findViewById(R.id.calcium);
+        aceclofenacCard = (CardView) findViewById(R.id.aceclofenac);
+        baclofenCard = (CardView) findViewById(R.id.baclofen);
 
 
-        napaCard.setOnClickListener(this);
-        aceCard.setOnClickListener(this);
-        fexoCard.setOnClickListener(this);
-        evoCard.setOnClickListener(this);
+        paracetamol1Card.setOnClickListener(this);
+        calciumCard.setOnClickListener(this);
+        aceclofenacCard.setOnClickListener(this);
+        baclofenCard.setOnClickListener(this);
     }
 
     @Override
@@ -31,10 +31,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Intent i;
 
         switch(v.getId()){
-            case R.id.napa : i = new Intent(this,NapaActivity.class); startActivity(i); break;
-            case R.id.ace : i = new Intent(this,AceActivity.class); startActivity(i); break;
-            case R.id.fexo : i = new Intent(this,FexoActivity.class); startActivity(i); break;
-            case R.id.evo : i = new Intent(this,EvoActivity.class); startActivity(i); break;
+            case R.id.paracetamol : i = new Intent(this,NapaActivity.class); startActivity(i); break;
+            case R.id.calcium : i = new Intent(this,AceActivity.class); startActivity(i); break;
+            case R.id.aceclofenac : i = new Intent(this,FexoActivity.class); startActivity(i); break;
+            case R.id.baclofen : i = new Intent(this,EvoActivity.class); startActivity(i); break;
             default:break;
         }
 

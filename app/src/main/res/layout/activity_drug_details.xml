@@ -6,30 +6,31 @@
     android:layout_height="match_parent"
     tools:context="com.cardview.DrugDetails">
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:src="@drawable/t1"
-            android:layout_marginBottom="350dp"
-            />
     <TextView
-        android:gravity="center"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="What are the uses of Napa?
-Napa Tablet is a medicine that is used for the treatment of Fever, Headache, Ear pain, Joint pain, Cold, Toothache and other conditions.
-The complete list of uses and indications for Napa Tablet is as follows:
-Fever
-Headache
-Ear pain
-Joint pain
-Cold
-"
+        android:text="Napa Extra"wrap_content
+        android:id="@+id/napa_id"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+        <ImageView
+            android:id="@+id/napa_image_id"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/napaextra"
+            android:layout_marginBottom="350dp"
+            android:layout_below="@+id/napa_id"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Type: Tablet
+Indication: It is indicated for the relief of fever, migraine and headache, common colds and flu, sore throat. earache, toothache, backache, rheumatic and muscular pain, neuralgia and menstrual pain.
+Side effects: In recommended doses, it is usually free from side effects. However, skin reactions such as urticaria have been reported rarely."
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true"
         android:layout_marginStart="13dp"
         android:layout_marginTop="188dp"
-        android:textStyle="bold"
         android:textSize="20dp"/>
 
 
