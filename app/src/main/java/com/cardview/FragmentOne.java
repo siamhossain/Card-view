@@ -17,16 +17,6 @@ public class FragmentOne extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
         v = inflater.inflate(R.layout.fragment_one_layout , container, false);
-
-        b = (Button) v.findViewById(R.id.btnFind);
-
-        b.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Toast.makeText(getActivity(), "Clicked on button", Toast.LENGTH_LONG).show();
-            }
-        });
-
         return v;
     }
 }
