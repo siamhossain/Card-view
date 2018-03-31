@@ -24,7 +24,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         aceCard.setOnClickListener(this);
         fexoCard.setOnClickListener(this);
         evoCard.setOnClickListener(this);
-
     }
 
     @Override

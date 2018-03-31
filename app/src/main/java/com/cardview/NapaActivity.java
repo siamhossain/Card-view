@@ -20,11 +20,7 @@ public class NapaActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View v) {
-        Intent j;
-
-        switch(v.getId()){
-            case R.id.napa_details : j = new Intent(this,DrugDetails.class); startActivity(j); break;
-            default:break;
-        }
+        Intent j = new Intent(this,DrugDetails.class);
+        startActivity(j);
     }
 }
