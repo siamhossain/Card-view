@@ -10,14 +10,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <android.support.v7.widget.Toolbar
-            android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            app:title="ChitChat"
-            app:titleTextColor="#FAFAFA"
-            android:background="#00aee5">
+        <!--<android.support.v7.widget.Toolbar-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="?attr/actionBarSize"-->
+            <!--app:title="ChitChat"-->
+            <!--app:titleTextColor="#FAFAFA"-->
+            <!--android:background="#00aee5">-->
 
-        </android.support.v7.widget.Toolbar>
+        <!--</android.support.v7.widget.Toolbar>-->
 
         <android.support.design.widget.TabLayout
             android:id="@+id/my_tabs"
