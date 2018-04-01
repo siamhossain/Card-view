@@ -8,7 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-public class FragmentTwo extends Fragment implements View.OnClickListener {
+public class FragmentCategory extends Fragment implements View.OnClickListener {
 
     View v2;
     private CardView paracetamol1Card, calciumCard, aceclofenacCard, baclofenCard;
@@ -16,7 +16,7 @@ public class FragmentTwo extends Fragment implements View.OnClickListener {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
-        v2 = inflater.inflate(R.layout.fragment_two_layout, container, false);
+        v2 = inflater.inflate(R.layout.fragment_category_layout, container, false);
 
         paracetamol1Card = (CardView) v2.findViewById(R.id.paracetamol);
         calciumCard = (CardView) v2.findViewById(R.id.calcium);
@@ -24,7 +24,7 @@ public class FragmentTwo extends Fragment implements View.OnClickListener {
         baclofenCard = (CardView) v2.findViewById(R.id.baclofen);
 
 
-        paracetamol1Card.setOnClickListener(FragmentTwo.this);
+        paracetamol1Card.setOnClickListener(FragmentCategory.this);
         calciumCard.setOnClickListener(this);
         aceclofenacCard.setOnClickListener(this);
         baclofenCard.setOnClickListener(this);
@@ -35,9 +35,11 @@ public class FragmentTwo extends Fragment implements View.OnClickListener {
     @Override
     public void onClick(View v) {
         Intent i;
+        startActivity(new Intent(getContext(), ItemsActivity.class));
+
 
         switch(v.getId()){
-            case R.id.paracetamol : i = new Intent(getContext(), NapaActivity.class); startActivity(i); break;
+            case R.id.paracetamol : i = new Intent(getContext(), ItemsActivity.class); startActivity(i); break;
             case R.id.calcium : i = new Intent(getContext(), AceActivity.class); startActivity(i); break;
             case R.id.aceclofenac : i = new Intent(getContext(), FexoActivity.class); startActivity(i); break;
             case R.id.baclofen : i = new Intent(getContext(), EvoActivity.class); startActivity(i); break;
