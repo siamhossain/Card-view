@@ -45,9 +45,6 @@ public class FragmentCategory extends Fragment implements View.OnClickListener {
 /*
         switch(v.getId()){
             case R.id.paracetamol : i = new Intent(getContext(), ItemsActivity.class); startActivity(i); break;
-            case R.id.calcium : i = new Intent(getContext(), AceActivity.class); startActivity(i); break;
-            case R.id.aceclofenac : i = new Intent(getContext(), FexoActivity.class); startActivity(i); break;
-            case R.id.baclofen : i = new Intent(getContext(), EvoActivity.class); startActivity(i); break;
             default:break;
         }
 */
