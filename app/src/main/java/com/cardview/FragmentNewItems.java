@@ -18,7 +18,7 @@ public class FragmentNewItems extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
         v = inflater.inflate(R.layout.fragment_new_items_layout, container, false);
-        mainTableLayout = (TableLayout) v.findViewById(R.id.category_table_layout);
+        mainTableLayout = (TableLayout) v.findViewById(R.id.new_items_table_layout);
         mainTableLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
