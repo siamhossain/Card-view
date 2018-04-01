@@ -11,7 +11,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:layout_margin="5dp">
+        android:layout_margin="5dp"
+        android:id="@+id/items_table_layout">
 
         <TableRow>
 
@@ -91,6 +92,8 @@
             </android.support.v7.widget.CardView>
 
         </TableRow>
+
+        <TableRow>
             <android.support.v7.widget.CardView
                 android:id="@+id/baclofen"
                 style="@style/card">
@@ -126,6 +129,1183 @@
 
                 </LinearLayout>
             </android.support.v7.widget.CardView>
+        </TableRow>
+
+        <TableRow>
+            <android.support.v7.widget.CardView
+                android:id="@+id/calcium"
+                style="@style/card">
+
+                <LinearLayout
+                    style="@style/card_linear_layout">
+
+                    <ImageView
+                        android:src="@drawable/t2"
+                        style="@style/card_image_view" />
+
+                    <TextView
+                        android:text="Calcium"
+                        style="@style/card_text_view" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/paracetamol"
+                style="@style/card">
+
+                <LinearLayout
+                    style="@style/card_linear_layout">
+
+                    <ImageView
+                        android:src="@drawable/t1"
+                        style="@style/card_image_view" />
+
+                    <TextView
+                        android:text="Paracetamol"
+                        style="@style/card_text_view" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </TableRow>
+
+
+        <TableRow>
+            <android.support.v7.widget.CardView
+                android:id="@+id/acetram"
+                style="@style/card">
+
+                <LinearLayout
+                    style="@style/card_linear_layout">
+
+                    <ImageView
+                        android:src="@drawable/acetram"
+                        style="@style/card_image_view" />
+
+                    <TextView
+                        android:text="Acetram"
+                        style="@style/card_text_view" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/aceplus"
+                style="@style/card">
+
+                <LinearLayout
+                    style="@style/card_linear_layout">
+
+                    <ImageView
+                        android:src="@drawable/aceplus"
+                        style="@style/card_image_view" />
+
+                    <TextView
+                        android:text="Ace Plus"
+                        style="@style/card_text_view" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </TableRow>
+        <TableRow>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/acetram"
+                style="@style/card">
+
+                <LinearLayout
+                    style="@style/card_linear_layout">
+
+                    <ImageView
+                        android:src="@drawable/acetram"
+                        style="@style/card_image_view" />
+
+                    <TextView
+                        android:text="Acetram"
+                        style="@style/card_text_view" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/aceplus"
+                style="@style/card">
+
+                <LinearLayout
+                    style="@style/card_linear_layout">
+
+                    <ImageView
+                        android:src="@drawable/aceplus"
+                        style="@style/card_image_view" />
+
+                    <TextView
+                        android:text="Ace Plus"
+                        style="@style/card_text_view" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </TableRow>
+
+        <TableRow>
+            <android.support.v7.widget.CardView
+                android:id="@+id/ace"
+                style="@style/card">
+
+                <LinearLayout
+                    style="@style/card_linear_layout">
+
+                    <ImageView
+                        android:src="@drawable/ace"
+                        style="@style/card_image_view" />
+
+                    <TextView
+                        android:text="Ace"
+                        style="@style/card_text_view" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/napaextra"
+                style="@style/card">
+
+                <LinearLayout
+                    style="@style/card_linear_layout">
+
+                    <ImageView
+                        android:src="@drawable/napaextra"
+                        style="@style/card_image_view" />
+
+                    <TextView
+                        android:text="Napa-Extra"
+                        style="@style/card_text_view" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </TableRow>
+
+        <TableRow>
+            <android.support.v7.widget.CardView
+                android:id="@+id/baclofen"
+                style="@style/card">
+
+                <LinearLayout
+                    style="@style/card_linear_layout">
+
+                    <ImageView
+                        android:src="@drawable/t4"
+                        style="@style/card_image_view" />
+
+                    <TextView
+                        android:text="Baclofen"
+                        style="@style/card_text_view" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/aceclofenac"
+                style="@style/card">
+
+                <LinearLayout
+                    style="@style/card_linear_layout">
+
+                    <ImageView
+                        android:src="@drawable/t3"
+                        style="@style/card_image_view" />
+
+                    <TextView
+                        android:text="Aceclofenac"
+                        style="@style/card_text_view" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </TableRow>
+
+        <TableRow>
+            <android.support.v7.widget.CardView
+                android:id="@+id/calcium"
+                style="@style/card">
+
+                <LinearLayout
+                    style="@style/card_linear_layout">
+
+                    <ImageView
+                        android:src="@drawable/t2"
+                        style="@style/card_image_view" />
+
+                    <TextView
+                        android:text="Calcium"
+                        style="@style/card_text_view" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/paracetamol"
+                style="@style/card">
+
+                <LinearLayout
+                    style="@style/card_linear_layout">
+
+                    <ImageView
+                        android:src="@drawable/t1"
+                        style="@style/card_image_view" />
+
+                    <TextView
+                        android:text="Paracetamol"
+                        style="@style/card_text_view" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </TableRow>
+
+
+        <TableRow>
+            <android.support.v7.widget.CardView
+                android:id="@+id/acetram"
+                style="@style/card">
+
+                <LinearLayout
+                    style="@style/card_linear_layout">
+
+                    <ImageView
+                        android:src="@drawable/acetram"
+                        style="@style/card_image_view" />
+
+                    <TextView
+                        android:text="Acetram"
+                        style="@style/card_text_view" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/aceplus"
+                style="@style/card">
+
+                <LinearLayout
+                    style="@style/card_linear_layout">
+
+                    <ImageView
+                        android:src="@drawable/aceplus"
+                        style="@style/card_image_view" />
+
+                    <TextView
+                        android:text="Ace Plus"
+                        style="@style/card_text_view" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </TableRow>
+        <TableRow>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/acetram"
+                style="@style/card">
+
+                <LinearLayout
+                    style="@style/card_linear_layout">
+
+                    <ImageView
+                        android:src="@drawable/acetram"
+                        style="@style/card_image_view" />
+
+                    <TextView
+                        android:text="Acetram"
+                        style="@style/card_text_view" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/aceplus"
+                style="@style/card">
+
+                <LinearLayout
+                    style="@style/card_linear_layout">
+
+                    <ImageView
+                        android:src="@drawable/aceplus"
+                        style="@style/card_image_view" />
+
+                    <TextView
+                        android:text="Ace Plus"
+                        style="@style/card_text_view" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </TableRow>
+
+        <TableRow>
+            <android.support.v7.widget.CardView
+                android:id="@+id/ace"
+                style="@style/card">
+
+                <LinearLayout
+                    style="@style/card_linear_layout">
+
+                    <ImageView
+                        android:src="@drawable/ace"
+                        style="@style/card_image_view" />
+
+                    <TextView
+                        android:text="Ace"
+                        style="@style/card_text_view" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/napaextra"
+                style="@style/card">
+
+                <LinearLayout
+                    style="@style/card_linear_layout">
+
+                    <ImageView
+                        android:src="@drawable/napaextra"
+                        style="@style/card_image_view" />
+
+                    <TextView
+                        android:text="Napa-Extra"
+                        style="@style/card_text_view" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </TableRow>
+
+        <TableRow>
+            <android.support.v7.widget.CardView
+                android:id="@+id/baclofen"
+                style="@style/card">
+
+                <LinearLayout
+                    style="@style/card_linear_layout">
+
+                    <ImageView
+                        android:src="@drawable/t4"
+                        style="@style/card_image_view" />
+
+                    <TextView
+                        android:text="Baclofen"
+                        style="@style/card_text_view" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/aceclofenac"
+                style="@style/card">
+
+                <LinearLayout
+                    style="@style/card_linear_layout">
+
+                    <ImageView
+                        android:src="@drawable/t3"
+                        style="@style/card_image_view" />
+
+                    <TextView
+                        android:text="Aceclofenac"
+                        style="@style/card_text_view" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </TableRow>
+
+        <TableRow>
+            <android.support.v7.widget.CardView
+                android:id="@+id/calcium"
+                style="@style/card">
+
+                <LinearLayout
+                    style="@style/card_linear_layout">
+
+                    <ImageView
+                        android:src="@drawable/t2"
+                        style="@style/card_image_view" />
+
+                    <TextView
+                        android:text="Calcium"
+                        style="@style/card_text_view" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/paracetamol"
+                style="@style/card">
+
+                <LinearLayout
+                    style="@style/card_linear_layout">
+
+                    <ImageView
+                        android:src="@drawable/t1"
+                        style="@style/card_image_view" />
+
+                    <TextView
+                        android:text="Paracetamol"
+                        style="@style/card_text_view" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </TableRow>
+
+
+        <TableRow>
+            <android.support.v7.widget.CardView
+                android:id="@+id/acetram"
+                style="@style/card">
+
+                <LinearLayout
+                    style="@style/card_linear_layout">
+
+                    <ImageView
+                        android:src="@drawable/acetram"
+                        style="@style/card_image_view" />
+
+                    <TextView
+                        android:text="Acetram"
+                        style="@style/card_text_view" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/aceplus"
+                style="@style/card">
+
+                <LinearLayout
+                    style="@style/card_linear_layout">
+
+                    <ImageView
+                        android:src="@drawable/aceplus"
+                        style="@style/card_image_view" />
+
+                    <TextView
+                        android:text="Ace Plus"
+                        style="@style/card_text_view" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </TableRow>
+        <TableRow>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/acetram"
+                style="@style/card">
+
+                <LinearLayout
+                    style="@style/card_linear_layout">
+
+                    <ImageView
+                        android:src="@drawable/acetram"
+                        style="@style/card_image_view" />
+
+                    <TextView
+                        android:text="Acetram"
+                        style="@style/card_text_view" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/aceplus"
+                style="@style/card">
+
+                <LinearLayout
+                    style="@style/card_linear_layout">
+
+                    <ImageView
+                        android:src="@drawable/aceplus"
+                        style="@style/card_image_view" />
+
+                    <TextView
+                        android:text="Ace Plus"
+                        style="@style/card_text_view" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </TableRow>
+
+        <TableRow>
+            <android.support.v7.widget.CardView
+                android:id="@+id/ace"
+                style="@style/card">
+
+                <LinearLayout
+                    style="@style/card_linear_layout">
+
+                    <ImageView
+                        android:src="@drawable/ace"
+                        style="@style/card_image_view" />
+
+                    <TextView
+                        android:text="Ace"
+                        style="@style/card_text_view" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/napaextra"
+                style="@style/card">
+
+                <LinearLayout
+                    style="@style/card_linear_layout">
+
+                    <ImageView
+                        android:src="@drawable/napaextra"
+                        style="@style/card_image_view" />
+
+                    <TextView
+                        android:text="Napa-Extra"
+                        style="@style/card_text_view" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </TableRow>
+
+        <TableRow>
+            <android.support.v7.widget.CardView
+                android:id="@+id/baclofen"
+                style="@style/card">
+
+                <LinearLayout
+                    style="@style/card_linear_layout">
+
+                    <ImageView
+                        android:src="@drawable/t4"
+                        style="@style/card_image_view" />
+
+                    <TextView
+                        android:text="Baclofen"
+                        style="@style/card_text_view" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/aceclofenac"
+                style="@style/card">
+
+                <LinearLayout
+                    style="@style/card_linear_layout">
+
+                    <ImageView
+                        android:src="@drawable/t3"
+                        style="@style/card_image_view" />
+
+                    <TextView
+                        android:text="Aceclofenac"
+                        style="@style/card_text_view" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </TableRow>
+
+        <TableRow>
+            <android.support.v7.widget.CardView
+                android:id="@+id/calcium"
+                style="@style/card">
+
+                <LinearLayout
+                    style="@style/card_linear_layout">
+
+                    <ImageView
+                        android:src="@drawable/t2"
+                        style="@style/card_image_view" />
+
+                    <TextView
+                        android:text="Calcium"
+                        style="@style/card_text_view" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/paracetamol"
+                style="@style/card">
+
+                <LinearLayout
+                    style="@style/card_linear_layout">
+
+                    <ImageView
+                        android:src="@drawable/t1"
+                        style="@style/card_image_view" />
+
+                    <TextView
+                        android:text="Paracetamol"
+                        style="@style/card_text_view" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </TableRow>
+
+
+        <TableRow>
+            <android.support.v7.widget.CardView
+                android:id="@+id/acetram"
+                style="@style/card">
+
+                <LinearLayout
+                    style="@style/card_linear_layout">
+
+                    <ImageView
+                        android:src="@drawable/acetram"
+                        style="@style/card_image_view" />
+
+                    <TextView
+                        android:text="Acetram"
+                        style="@style/card_text_view" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/aceplus"
+                style="@style/card">
+
+                <LinearLayout
+                    style="@style/card_linear_layout">
+
+                    <ImageView
+                        android:src="@drawable/aceplus"
+                        style="@style/card_image_view" />
+
+                    <TextView
+                        android:text="Ace Plus"
+                        style="@style/card_text_view" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </TableRow>
+        <TableRow>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/acetram"
+                style="@style/card">
+
+                <LinearLayout
+                    style="@style/card_linear_layout">
+
+                    <ImageView
+                        android:src="@drawable/acetram"
+                        style="@style/card_image_view" />
+
+                    <TextView
+                        android:text="Acetram"
+                        style="@style/card_text_view" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/aceplus"
+                style="@style/card">
+
+                <LinearLayout
+                    style="@style/card_linear_layout">
+
+                    <ImageView
+                        android:src="@drawable/aceplus"
+                        style="@style/card_image_view" />
+
+                    <TextView
+                        android:text="Ace Plus"
+                        style="@style/card_text_view" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </TableRow>
+
+        <TableRow>
+            <android.support.v7.widget.CardView
+                android:id="@+id/ace"
+                style="@style/card">
+
+                <LinearLayout
+                    style="@style/card_linear_layout">
+
+                    <ImageView
+                        android:src="@drawable/ace"
+                        style="@style/card_image_view" />
+
+                    <TextView
+                        android:text="Ace"
+                        style="@style/card_text_view" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/napaextra"
+                style="@style/card">
+
+                <LinearLayout
+                    style="@style/card_linear_layout">
+
+                    <ImageView
+                        android:src="@drawable/napaextra"
+                        style="@style/card_image_view" />
+
+                    <TextView
+                        android:text="Napa-Extra"
+                        style="@style/card_text_view" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </TableRow>
+
+        <TableRow>
+            <android.support.v7.widget.CardView
+                android:id="@+id/baclofen"
+                style="@style/card">
+
+                <LinearLayout
+                    style="@style/card_linear_layout">
+
+                    <ImageView
+                        android:src="@drawable/t4"
+                        style="@style/card_image_view" />
+
+                    <TextView
+                        android:text="Baclofen"
+                        style="@style/card_text_view" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/aceclofenac"
+                style="@style/card">
+
+                <LinearLayout
+                    style="@style/card_linear_layout">
+
+                    <ImageView
+                        android:src="@drawable/t3"
+                        style="@style/card_image_view" />
+
+                    <TextView
+                        android:text="Aceclofenac"
+                        style="@style/card_text_view" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </TableRow>
+
+        <TableRow>
+            <android.support.v7.widget.CardView
+                android:id="@+id/calcium"
+                style="@style/card">
+
+                <LinearLayout
+                    style="@style/card_linear_layout">
+
+                    <ImageView
+                        android:src="@drawable/t2"
+                        style="@style/card_image_view" />
+
+                    <TextView
+                        android:text="Calcium"
+                        style="@style/card_text_view" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/paracetamol"
+                style="@style/card">
+
+                <LinearLayout
+                    style="@style/card_linear_layout">
+
+                    <ImageView
+                        android:src="@drawable/t1"
+                        style="@style/card_image_view" />
+
+                    <TextView
+                        android:text="Paracetamol"
+                        style="@style/card_text_view" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </TableRow>
+
+
+        <TableRow>
+            <android.support.v7.widget.CardView
+                android:id="@+id/acetram"
+                style="@style/card">
+
+                <LinearLayout
+                    style="@style/card_linear_layout">
+
+                    <ImageView
+                        android:src="@drawable/acetram"
+                        style="@style/card_image_view" />
+
+                    <TextView
+                        android:text="Acetram"
+                        style="@style/card_text_view" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/aceplus"
+                style="@style/card">
+
+                <LinearLayout
+                    style="@style/card_linear_layout">
+
+                    <ImageView
+                        android:src="@drawable/aceplus"
+                        style="@style/card_image_view" />
+
+                    <TextView
+                        android:text="Ace Plus"
+                        style="@style/card_text_view" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </TableRow>
+        <TableRow>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/acetram"
+                style="@style/card">
+
+                <LinearLayout
+                    style="@style/card_linear_layout">
+
+                    <ImageView
+                        android:src="@drawable/acetram"
+                        style="@style/card_image_view" />
+
+                    <TextView
+                        android:text="Acetram"
+                        style="@style/card_text_view" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/aceplus"
+                style="@style/card">
+
+                <LinearLayout
+                    style="@style/card_linear_layout">
+
+                    <ImageView
+                        android:src="@drawable/aceplus"
+                        style="@style/card_image_view" />
+
+                    <TextView
+                        android:text="Ace Plus"
+                        style="@style/card_text_view" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </TableRow>
+
+        <TableRow>
+            <android.support.v7.widget.CardView
+                android:id="@+id/ace"
+                style="@style/card">
+
+                <LinearLayout
+                    style="@style/card_linear_layout">
+
+                    <ImageView
+                        android:src="@drawable/ace"
+                        style="@style/card_image_view" />
+
+                    <TextView
+                        android:text="Ace"
+                        style="@style/card_text_view" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/napaextra"
+                style="@style/card">
+
+                <LinearLayout
+                    style="@style/card_linear_layout">
+
+                    <ImageView
+                        android:src="@drawable/napaextra"
+                        style="@style/card_image_view" />
+
+                    <TextView
+                        android:text="Napa-Extra"
+                        style="@style/card_text_view" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </TableRow>
+
+        <TableRow>
+            <android.support.v7.widget.CardView
+                android:id="@+id/baclofen"
+                style="@style/card">
+
+                <LinearLayout
+                    style="@style/card_linear_layout">
+
+                    <ImageView
+                        android:src="@drawable/t4"
+                        style="@style/card_image_view" />
+
+                    <TextView
+                        android:text="Baclofen"
+                        style="@style/card_text_view" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/aceclofenac"
+                style="@style/card">
+
+                <LinearLayout
+                    style="@style/card_linear_layout">
+
+                    <ImageView
+                        android:src="@drawable/t3"
+                        style="@style/card_image_view" />
+
+                    <TextView
+                        android:text="Aceclofenac"
+                        style="@style/card_text_view" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </TableRow>
+
+        <TableRow>
+            <android.support.v7.widget.CardView
+                android:id="@+id/calcium"
+                style="@style/card">
+
+                <LinearLayout
+                    style="@style/card_linear_layout">
+
+                    <ImageView
+                        android:src="@drawable/t2"
+                        style="@style/card_image_view" />
+
+                    <TextView
+                        android:text="Calcium"
+                        style="@style/card_text_view" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/paracetamol"
+                style="@style/card">
+
+                <LinearLayout
+                    style="@style/card_linear_layout">
+
+                    <ImageView
+                        android:src="@drawable/t1"
+                        style="@style/card_image_view" />
+
+                    <TextView
+                        android:text="Paracetamol"
+                        style="@style/card_text_view" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </TableRow>
+
+
+        <TableRow>
+            <android.support.v7.widget.CardView
+                android:id="@+id/acetram"
+                style="@style/card">
+
+                <LinearLayout
+                    style="@style/card_linear_layout">
+
+                    <ImageView
+                        android:src="@drawable/acetram"
+                        style="@style/card_image_view" />
+
+                    <TextView
+                        android:text="Acetram"
+                        style="@style/card_text_view" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/aceplus"
+                style="@style/card">
+
+                <LinearLayout
+                    style="@style/card_linear_layout">
+
+                    <ImageView
+                        android:src="@drawable/aceplus"
+                        style="@style/card_image_view" />
+
+                    <TextView
+                        android:text="Ace Plus"
+                        style="@style/card_text_view" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </TableRow>
+        <TableRow>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/acetram"
+                style="@style/card">
+
+                <LinearLayout
+                    style="@style/card_linear_layout">
+
+                    <ImageView
+                        android:src="@drawable/acetram"
+                        style="@style/card_image_view" />
+
+                    <TextView
+                        android:text="Acetram"
+                        style="@style/card_text_view" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/aceplus"
+                style="@style/card">
+
+                <LinearLayout
+                    style="@style/card_linear_layout">
+
+                    <ImageView
+                        android:src="@drawable/aceplus"
+                        style="@style/card_image_view" />
+
+                    <TextView
+                        android:text="Ace Plus"
+                        style="@style/card_text_view" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </TableRow>
+
+        <TableRow>
+            <android.support.v7.widget.CardView
+                android:id="@+id/ace"
+                style="@style/card">
+
+                <LinearLayout
+                    style="@style/card_linear_layout">
+
+                    <ImageView
+                        android:src="@drawable/ace"
+                        style="@style/card_image_view" />
+
+                    <TextView
+                        android:text="Ace"
+                        style="@style/card_text_view" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/napaextra"
+                style="@style/card">
+
+                <LinearLayout
+                    style="@style/card_linear_layout">
+
+                    <ImageView
+                        android:src="@drawable/napaextra"
+                        style="@style/card_image_view" />
+
+                    <TextView
+                        android:text="Napa-Extra"
+                        style="@style/card_text_view" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </TableRow>
+
+        <TableRow>
+            <android.support.v7.widget.CardView
+                android:id="@+id/baclofen"
+                style="@style/card">
+
+                <LinearLayout
+                    style="@style/card_linear_layout">
+
+                    <ImageView
+                        android:src="@drawable/t4"
+                        style="@style/card_image_view" />
+
+                    <TextView
+                        android:text="Baclofen"
+                        style="@style/card_text_view" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/aceclofenac"
+                style="@style/card">
+
+                <LinearLayout
+                    style="@style/card_linear_layout">
+
+                    <ImageView
+                        android:src="@drawable/t3"
+                        style="@style/card_image_view" />
+
+                    <TextView
+                        android:text="Aceclofenac"
+                        style="@style/card_text_view" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </TableRow>
 
         <TableRow>
             <android.support.v7.widget.CardView
