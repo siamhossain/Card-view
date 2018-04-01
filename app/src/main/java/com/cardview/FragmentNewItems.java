@@ -6,9 +6,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.Toast;
 
-public class FragmentOne extends Fragment {
+public class FragmentNewItems extends Fragment {
 
     View v;
     Button b;
@@ -16,7 +15,7 @@ public class FragmentOne extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
-        v = inflater.inflate(R.layout.fragment_one_layout , container, false);
+        v = inflater.inflate(R.layout.fragment_new_items_layout, container, false);
         return v;
     }
 }
