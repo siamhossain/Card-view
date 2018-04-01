@@ -4,5 +4,52 @@
     android:layout_height="match_parent"
     android:gravity="center">
 
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="5dp"
+        android:id="@+id/new_items_table_layout">
 
+        <TableRow>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/napaextra"
+                style="@style/card">
+
+                <LinearLayout
+                    style="@style/card_linear_layout">
+
+                    <ImageView
+                        android:src="@drawable/napaextra"
+                        style="@style/card_image_view" />
+
+                    <TextView
+                        android:text="Napa-Extra"
+                        style="@style/card_text_view" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/ace"
+                style="@style/card">
+
+                <LinearLayout
+                    style="@style/card_linear_layout">
+
+                    <ImageView
+                        android:src="@drawable/ace"
+                        style="@style/card_image_view" />
+
+                    <TextView
+                        android:text="Ace"
+                        style="@style/card_text_view" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </TableRow>
+    </TableLayout>
 </LinearLayout>
