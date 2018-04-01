@@ -36,7 +36,7 @@ public class HomeActivity extends AppCompatActivity {
         ViewPagerAdapter vpa = new ViewPagerAdapter(getSupportFragmentManager());
         vpa.addMyFragment(new FragmentNewItems(), "New");
         vpa.addMyFragment(new FragmentCategory(), "Catalog");
-        vpa.addMyFragment(new FragmentThree(), "About Us");
+        vpa.addMyFragment(new FragmentAbout(), "About Us");
 
         vp.setAdapter(vpa);
 
