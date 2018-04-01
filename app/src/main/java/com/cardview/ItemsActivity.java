@@ -6,21 +6,28 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.CardView;
 import android.view.View;
 
-public class NapaActivity extends AppCompatActivity implements View.OnClickListener {
-    private CardView napaDetais;
+public class ItemsActivity extends AppCompatActivity implements View.OnClickListener {
+    private CardView paracetamol1Card, calciumCard, aceclofenacCard, baclofenCard;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_napa);
-        napaDetais = (CardView) findViewById(R.id.napa_details);
+        setContentView(R.layout.activity_items);
+        paracetamol1Card = (CardView) findViewById(R.id.paracetamol);
+        calciumCard = (CardView) findViewById(R.id.calcium);
+        aceclofenacCard = (CardView) findViewById(R.id.aceclofenac);
+        baclofenCard = (CardView) findViewById(R.id.baclofen);
 
-        napaDetais.setOnClickListener(this);
+
+        paracetamol1Card.setOnClickListener(ItemsActivity.this);
+        calciumCard.setOnClickListener(this);
+        aceclofenacCard.setOnClickListener(this);
+        baclofenCard.setOnClickListener(this);
     }
 
     @Override
     public void onClick(View v) {
-        Intent j = new Intent(this,DrugDetails.class);
+        Intent j = new Intent(this, DrugDetails.class);
         startActivity(j);
     }
 }
