@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.design.widget.CoordinatorLayout android:layout_height="match_parent"
+<LinearLayout android:layout_height="match_parent"
     android:layout_width="match_parent"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
 
     <!--we will use Appbar layout to hold toolbar and tablayout-->
 
@@ -39,5 +40,5 @@
         android:layout_height="match_parent">
     </android.support.v4.view.ViewPager>
 
-</android.support.design.widget.CoordinatorLayout>
+</LinearLayout>
 
