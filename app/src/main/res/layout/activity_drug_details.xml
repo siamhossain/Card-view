@@ -14,7 +14,7 @@
         android:layout_height="match_parent"
         tools:context="com.cardview.DrugDetails"
         android:orientation="vertical"
-        android:gravity="center">
+        android:gravity="left" >
 
         <TextView
             android:layout_width="match_parent"
@@ -23,24 +23,23 @@
             android:id="@+id/napa_id"
             android:textSize="30dp"
             android:textStyle="bold"
-            android:gravity="center"
-            android:layout_marginBottom="10dp"/>
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/colorBlack" />
 
         <ImageView
             android:id="@+id/napa_image_id"
-            android:layout_width="150dp"
-            android:layout_height="150dp"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
             android:src="@drawable/napaextra"
             android:layout_below="@+id/napa_id"
             android:layout_marginBottom="20dp"/>
 
         <TextView
+            android:id="@+id/tv_drug_details"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Type: Tablet
-    Indication: It is indicated for the relief of fever, migraine and headache, common colds and flu, sore throat. earache, toothache, backache, rheumatic and muscular pain, neuralgia and menstrual pain.
-    Side effects: In recommended doses, it is usually free from side effects. However, skin reactions such as urticaria have been reported rarely."
-            android:textSize="18dp"
+            android:textSize="15dp"
+            android:textColor="@color/colorBlack"
             android:layout_marginBottom="20dp"/>
 
 
